@@ -1,5 +1,42 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: gainsboro
+
+}
+
+div {
+  background-color: fuchsia;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px,
+}
+input {
+border: 5px solid black;
+}
+.adicionar{
+  background-color: whitesmoke ;
+  color: black;
+  padding: 8px;
+}
+ul{
+  margin-top: 10px;
+
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+  display: flex;
+  justify-content: space-between;
+
+
 }
